@@ -37,6 +37,7 @@ const button = document.getElementById('plus')
 
 button.addEventListener('click', () => {
   const newP = document.createElement('p')
-  newP.innerHTML = 'Congratulations'
+  newP.innerHTML = 'Congratulations!'
+  document.body.appendChild(newP)
 })
 
