@@ -15,3 +15,22 @@ function onInputKeyDown(event){
   } else {
   }
 }
+
+
+
+
+
+
+const p = document.getElementById('yellow')
+
+function onYellowClick() {
+  
+}
+
+p.addEventListerner('click', (event) => {
+  console.log(event)
+  p.style.backgroundColor = 'yellow'
+})
+
+
+
