@@ -27,7 +27,7 @@ function onYellowClick() {
   
 }
 
-p.addEventListerner('click', (event) => {
+p.addEventListener('click', (event) => {
   console.log(event)
   p.style.backgroundColor = 'yellow'
 })
